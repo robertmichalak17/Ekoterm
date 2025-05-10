@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zielona energia Ekoterm</title>
+
+    <meta name="description"
+        content="Zielona energia Gorzów, Ekoterm, Systemy grzewcze Gorzów Wielkopolski, Klimatyzacje, Fotowoltaika">
+
+    <meta name="keywords"
+        content="Zielona energia Gorzów, Systemy grzewcze Gorzów, Klimatyzacje Gorzów, Fotowoltaika Gorzów Wielkopolski, Instalacja systemów grzewczych w Gorzowie">    
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Strona główna Ekoterm">
+
+    <link media="screen" rel="icon" type="image/png" sizes="16x16" href="img/logo2.png">
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="master.css">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    
+    <style>
+      .card { 
+            position: relative;
+            height: 400px;
+            border-radius: 28px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .card1 {
+          border-radius: 28px;
+          border: 1px solid rgb(231, 231, 231);
+          background-color: #002E2C;
+          color: white;
+        }
+
+        .card-front {
+            height: 400px;
+            position: absolute;  
+        }
+
+        .card-back {
+          display: none;
+        }
+
+      @media (min-width: 720px) {
+        .card { 
+            position: relative;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            height: 400px;
+            border-radius: 28px;
+        }
+
+        .card:hover {
+            transform: rotateY(180deg);
+            cursor: default;
+        }
+
+        .card-front,
+        .card-back {
+            border-radius: 28px;
+            height: 400px;
+            padding: 30px;
+            position: absolute;  
+            backface-visibility: hidden;
+            display: block;
+        }
+
+        .card-front {
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .card-back {
+            background-color: #6abe6b;
+            color: #fff;
+            transform: rotateY(180deg);
+        }
+      }
+    </style>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-light border">
+        <a href="index.html">
+          <img id="logo Ekoterm" class="ml-md-4 navbar-brand imag" src="img/logo.webp" alt="Logo Eko-term">
+        </a>  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-white w-100" id="navbarText">
+          <ul class="navbar-nav ml-auto f-weight">
+            <li class="nav-item active">
+              <a class="nav-link px-0 mx-3 underline-link pt-md-1 pt-2" href="index.html">Strona główna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-0 mx-3 underline-link pt-md-1 pt-2" href="o_nas.html">O nas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-0 mx-3 underline-link pt-md-1 pt-2" href="oferta.html">Oferta</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-0 mx-3 underline-link pt-md-1 pt-2" href="certyfikaty.html">Certyfikaty</a>
+            </li>
+          </ul>
+          <a class="btn px-4 contact-button mx-3 mr-md-4 mr-0 f-weight mt-md-0 mt-2" href="kontakt.html">Kontakt</a>
+        </div>
+      </nav>
+
+      <div class="container pt-5 mrg-top">
+        <div class="row">
+          <div class="col-md-9 col-12">
+            <div class="animate-text">
+                <h1 class="text f-weight"><span class="green">POMPY CIEPŁA</span></h1>
+                <h1 class="text f-weight"><span class="green">FOTOWOLTAIKA</span></h1>
+                <h1 class="text f-weight"><span class="green">KLIMATYZACJE</span></h1>
+                <h1 class="text f-weight"><span class="green">WENTYLACJE</span></h1>
+            </div>
+            <h1 class="text1 display-3 f-weight"> 
+              Właściwe podejście do zielonej energii
+            </h1>
+            <p class="my-4 d-none d-md-block">Od ponad 30 lat projektujemy, montujemy i serwisujemy ekologiczne systemy ogrzewania i klimatyzacji. 
+              Doradzamy naszym klientom najkorzystniejsze rozwiązania technologiczne i odpowiednie materiały oraz służymy 
+              wsparciem w ubieganiu się o rządowe i unijne dotacje.</p>  
+            <div class="mt-md-5 mt-4 d-flex align-items-center">
+              <a id="scrollButton" class="btn buttons d-flex align-items-center justify-content-between" href="#start">
+                <span class="mx-auto f-weight">Dowiedz się więcej</span>
+                <span class="bg-white d-flex align-items-center justify-content-center" style="width: 35px; height: 35px; border-radius: 50%;">
+                  <i style="width: 13px;" class="right-arrow"></i>
+                </span>
+              </a>             
+              <a href="kontakt.html"  class="contact-link ml-4 ml-md-5 f-weight">Skontaktuj się</a>
+            </div>
+            <p class="mt-4 d-block d-md-none">Od ponad 30 lat projektujemy, montujemy i serwisujemy ekologiczne systemy ogrzewania i klimatyzacji. 
+              Doradzamy naszym klientom najkorzystniejsze rozwiązania technologiczne i odpowiednie materiały oraz służymy 
+              wsparciem w ubieganiu się o rządowe i unijne dotacje.
+            </p>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="start"></div>
+      <div class="background-green">
+      <div class="container my-5 align py-5">
+        <p class="text-center top-sub m-0 f-weight">Eko Term</p>
+        <h2 class="text-center f-weight mb-5">Czym się zajmujemy?</h2>
+        
+        <div class="row text-center">
+
+          <div class="col-12 col-lg-4">  
+            <div class="card mb-3">
+                <div class="card-body card-front">
+                  <img class="images" src="img/icons/boiler.png">
+                  <h5 class="card-title my-4 font-weight-bold">Kotłownie</h5>
+                  <p class="card-text">Zajmujemy się projektem, doborem, kompletacją, 
+                    montażem i serwisem kotłów grzewczych: olejowych i gazowych oraz optymalizacją ich parametrów pracy.</p>
+                </div>
+
+                <div class="card-body card-back">
+                  <img class="images" src="img/icons/boiler-white.png">
+                  <h5 class="card-title my-4 font-weight-bold">Kotłownie</h5>
+                  <p class="card-text">Zajmujemy się projektem, doborem, kompletacją, 
+                    montażem i serwisem kotłów grzewczych: olejowych i gazowych oraz optymalizacją ich parametrów pracy.</p>
+                </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-lg-4">      
+            <div class="card mb-3">
+                <div class="card-body card-front">
+                  <img class="images" src="img/icons/renewable-energy.png">
+                  <h5 class="card-title my-4 font-weight-bold">Energie odnawialne</h5>
+                  <p class="card-text">Świadczymy usługi profesjonalnego montażu i serwisu pomp ciepła, kolektorów słonecznych, 
+                    fotowoltaiki oraz systemów grzewczych na biomasę.</p>
+                </div>
+
+                <div class="card-body card-back">
+                  <img class="images" src="img/icons/renewable-energy-white.png">
+                  <h5 class="card-title my-4 font-weight-bold">Energie odnawialne</h5>
+                  <p class="card-text">Świadczymy usługi profesjonalnego montażu i serwisu pomp ciepła, kolektorów słonecznych, 
+                    fotowoltaiki oraz systemów grzewczych na biomasę.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">   
+            <div class="card">
+                <div class="card-body card-front">
+                  <img class="images" src="img/icons/aircon.png">
+                  <h5 class="card-title my-4 font-weight-bold">Klimatyzacje</h5>
+                  <p class="card-text">Oferujemy projekt i wykonawstwo ekologicznej instalacji klimatyzacyjnej i wentylacyjnej: 
+                    cichej, oszczędzającej energię, dbającej o czystość powietrza.</p>
+                </div>
+
+                <div class="card-body card-back">
+                  <img class="images" src="img/icons/aircon-white.png">
+                  <h5 class="card-title my-4 font-weight-bold">Klimatyzacje</h5>
+                  <p class="card-text">Oferujemy projekt i wykonawstwo ekologicznej instalacji klimatyzacyjnej i wentylacyjnej: 
+                    cichej, oszczędzającej energię, dbającej o czystość powietrza.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+
+        <p class="text-center top-sub m-0 f-weight">Eko Term</p>
+        <h2 class="text-center f-weight mb-5">Nasza oferta</h2>
+
+        <div class="row row-spacing">
+          <div class="col-md-6 order-2 order-md-1 mt-3 mt-md-0">
+            <h4 class="mb-3">Systemy grzewcze</h4>
+            <p>Systemy grzewcze odgrywają kluczową rolę w zapewnieniu komfortu termicznego w domach i budynkach. Istnieje wiele 
+                rodzajów tych systemów, a ich wybór zależy od różnych czynników, takich jak wielkość pomieszczenia, rodzaj budynku, dostępność paliw oraz preferencje użytkowników.
+                Wśród najpopularniejszych rozwiązań znajdują się systemy grzewcze na paliwa stałe, takie jak kotły węglowe 
+                czy piece na drewno, które cieszą się uznaniem w rejonach z dostępem do tych surowców. Kotły gazowe są natomiast 
+                wygodnym i efektywnym rozwiązaniem, a ich popularność wzrasta w miastach. Ogrzewanie elektryczne, obejmujące grzejniki elektryczne i 
+                pompy ciepła, to kolejna opcja, która zyskuje na znaczeniu, szczególnie w kontekście odnawialnych źródeł energii.
+            </p>
+            <a id="" class="btn buttons buttons2 mt-md-4 mt-0 d-flex align-items-center justify-content-between" href="oferta.html#system ">
+              <span class="mx-auto f-weight">Dowiedz się więcej</span>
+              <span class="d-flex align-items-center justify-content-center" style="width: 35px; height: 35px; border-radius: 50%; background-color: #6abe6b;">
+                <i style="width: 13px;" class="right-arrow-white"></i>
+              </span>
+            </a> 
+          </div>
+          <div class="col-md-6 pl-md-3 d-flex justify-content-center order-1 order-md-2">
+            <img class="card-img px-md-0" src="img/system.webp" alt="Zdjęcie systemu grzewczego oferty Ekoterm">
+          </div>
+        </div>
+
+        <div class="row row-spacing">
+          <div class="col-md-6 order-2 order-md-1 mt-3 mt-md-0">
+            <h4>Kotłownie olejowe i gazowe</h4>
+            <p>Kotłownie olejowe wykorzystują olej opałowy jako paliwo. Ich główną zaletą jest wysoka wydajność i niezależność od sieci gazowej, co czyni je atrakcyjnym 
+              wyborem w rejonach, gdzie dostęp do gazu jest ograniczony. Olej opałowy jest łatwy w przechowywaniu, a same kotły cechują się długą żywotnością. Kotłownie gazowe działają na gaz ziemny 
+              lub propan, a ich główną zaletą jest wygoda użytkowania oraz niższe koszty eksploatacji w porównaniu do kotłowni olejowych. Gaz ziemny jest paliwem bardziej ekologicznym, emitującym 
+              mniej CO2 i innych zanieczyszczeń. Wybór między kotłowniami powinien być dokładnie przemyślany, uwzględniając dostępność paliw, koszty eksploatacji oraz wpływ na środowisko.
+            </p>
+            <a class="btn buttons buttons2 mt-md-4 mt-0 d-flex align-items-center justify-content-between" href="oferta.html#kotlownie ">
+              <span class="mx-auto f-weight">Dowiedz się więcej</span>
+              <span class="d-flex align-items-center justify-content-center" style="width: 35px; height: 35px; border-radius: 50%; background-color: #6abe6b;">
+                <i style="width: 13px;" class="right-arrow-white"></i>
+              </span>
+            </a> 
+          </div>
+          <div class="col-md-6 pl-md-3 order-1 order-md-2">
+            <img class="card-img px-md-0" src="img/kotlownia.webp" alt="Zdjęcie kotłowni oferta Ekoterm">
+          </div>
+        </div>
+
+        <div class="row row-spacing">
+          <div class="col-md-6 order-2 order-md-1 mt-3 mt-md-0">
+            <h4>Klimatyzacje</h4>
+            <p>Klimatyzacja to system, który zapewnia komfort termiczny w pomieszczeniach, regulując temperaturę, wilgotność i jakość powietrza. W dzisiejszych czasach staje się nieodłącznym 
+              elementem domów i biur, szczególnie w regionach o gorącym klimacie. Istnieje wiele typów klimatyzacji, a ich wybór zależy od potrzeb użytkowników oraz charakterystyki budynku.
+              Klimatyzacja jednostkowa, taka jak klimatyzatory okienne i przenośne, jest popularna w małych pomieszczeniach, oferując łatwość instalacji. Klimatyzacja typu split składa 
+              się z jednostki wewnętrznej i zewnętrznej, zapewniając większą efektywność i cichszą pracę, co czyni ją idealnym rozwiązaniem dla domów i biur. Klimatyzacja multisplit 
+              pozwala na podłączenie kilku jednostek wewnętrznych do jednej jednostki zewnętrznej.
+            </p>
+            <a class="btn buttons buttons2 mt-md-4 mt-0 d-flex align-items-center justify-content-between" href="oferta.html#klimatyzacje">
+              <span class="mx-auto f-weight">Dowiedz się więcej</span>
+              <span class="d-flex align-items-center justify-content-center" style="width: 35px; height: 35px; border-radius: 50%; background-color: #6abe6b;">
+                <i style="width: 13px;" class="right-arrow-white"></i>
+              </span>
+            </a> 
+          </div>
+          <div class="col-md-6 pl-md-3 order-1 order-md-2">
+            <img class="card-img px-md-0" src="img/klimatyzacja.webp" alt="Zdjęcie klimatyzacji, oferty Ekoterm">
+          </div>
+        </div>
+
+        <div class="row row-spacing">
+          <div class="col-md-6 order-2 order-md-1 mt-3 mt-md-0">
+            <h4>Systemy wentylacyjne</h4>
+            <p>Systemy grzewcze odgrywają kluczową rolę w zapewnieniu komfortu termicznego w domach i budynkach. Istnieje wiele 
+                rodzajów tych systemów, a ich wybór zależy od różnych czynników, takich jak wielkość pomieszczenia, rodzaj budynku, dostępność paliw oraz preferencje użytkowników.
+                Wśród najpopularniejszych rozwiązań znajdują się systemy grzewcze na paliwa stałe, takie jak kotły węglowe 
+                czy piece na drewno, które cieszą się uznaniem w rejonach z dostępem do tych surowców. Kotły gazowe są natomiast 
+                wygodnym i efektywnym rozwiązaniem, a ich popularność wzrasta w miastach. Ogrzewanie elektryczne, obejmujące grzejniki elektryczne i 
+                pompy ciepła, to kolejna opcja, która zyskuje na znaczeniu, szczególnie w kontekście odnawialnych źródeł energii.
+            </p>
+            <a class="btn buttons buttons2 mt-md-4 mt-0 d-flex align-items-center justify-content-between" href="oferta.html#wentylacje">
+              <span class="mx-auto f-weight">Dowiedz się więcej</span>
+              <span class="d-flex align-items-center justify-content-center" style="width: 35px; height: 35px; border-radius: 50%; background-color: #6abe6b;">
+                <i style="width: 13px;" class="right-arrow-white"></i>
+              </span>
+            </a> 
+          </div>
+          <div class="col-md-6 pl-md-3 order-1 order-md-2">
+            <img class="card-img px-md-0" src="img/wentylacja.webp" alt="Zdjęcie systemu klimatyzacji, oferty Ekoterm">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="background-green">
+      <div class="container my-5 align py-5" id="start">
+        <p class="text-center top-sub m-0 f-weight">Eko Term</p>
+        <h2 class="text-center f-weight mb-5">Korzyści ze współpracy</h2>
+        <div class="row text-center">
+
+          <div class="col-12 col-lg-4">  
+            <div class="card mb-3">
+                <div class="card-body card-front">
+                  <img class="images" src="img/icons/user.png">
+                  <h5 class="card-title my-4 font-weight-bold">Profesjonalna obsługa</h5>
+                  <p class="card-text">Zajmujemy się projektem, doborem, kompletacją, 
+                    montażem i serwisem kotłów grzewczych: olejowych i gazowych oraz optymalizacją ich parametrów pracy.</p>
+                </div>
+
+                <div class="card-body card-back">
+                  <img class="images" src="img/icons/user-white.png">
+                  <h5 class="card-title my-4 font-weight-bold">Profesjonalna obsługa</h5>
+                  <p class="card-text">Zajmujemy się projektem, doborem, kompletacją, 
+                    montażem i serwisem kotłów grzewczych: olejowych i gazowych oraz optymalizacją ich parametrów pracy.</p>
+                </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-lg-4">      
+            <div class="card mb-3">
+                <div class="card-body card-front">
+                  <img class="images" src="img/icons/repairing-service.png">
+                  <h5 class="card-title my-4 font-weight-bold">Kompleksowa usługa</h5>
+                  <p class="card-text">Świadczymy usługi profesjonalnego montażu i serwisu pomp ciepła, kolektorów słonecznych, 
+                    fotowoltaiki oraz systemów grzewczych na biomasę.</p>
+                </div>
+
+                <div class="card-body card-back">
+                  <img class="images" src="img/icons/repairing-service-white.png">
+                  <h5 class="card-title my-4 font-weight-bold">Kompleksowa usługa</h5>
+                  <p class="card-text">Świadczymy usługi profesjonalnego montażu i serwisu pomp ciepła, kolektorów słonecznych, 
+                    fotowoltaiki oraz systemów grzewczych na biomasę.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">   
+            <div class="card">
+                <div class="card-body card-front">
+                  <img class="images" src="img/icons/guaranteed.png">
+                  <h5 class="card-title my-4 font-weight-bold">Gwarancja i serwis posprzedażowy</h5>
+                  <p class="card-text">Oferujemy projekt i wykonawstwo ekologicznej instalacji klimatyzacyjnej i wentylacyjnej: 
+                    cichej, oszczędzającej energię, dbającej o czystość powietrza.</p>
+                </div>
+
+                <div class="card-body card-back">
+                  <img class="images" src="img/icons/guaranteed-white.png">
+                  <h5 class="card-title my-4 font-weight-bold">Gwarancja i serwis posprzedażowy</h5>
+                  <p class="card-text">Oferujemy projekt i wykonawstwo ekologicznej instalacji klimatyzacyjnej i wentylacyjnej: 
+                    cichej, oszczędzającej energię, dbającej o czystość powietrza.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm card_border" >
+          <div class="numbers">30+</div>
+          <p class="text-secondary">Lat doświadczenia</p>
+        </div>
+        <div class="col-sm card_border2">
+          <div class="numbers">300+</div>
+          <p class="text-secondary">Udanych projektów</p>
+        </div>
+        <div class="col-sm card_border3">
+          <div class="numbers">1k+</div>
+          <p class="text-secondary">Klientów</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pt-5">
+        <div class="row mt-md-5">
+          <div class="col-md-6 order-2 order-md-1 mt-3 mt-md-0 ">
+          <div class="order-1 order-md-2"> 
+            <p class="top-sub m-0 f-weight">Eko Term</p>
+            <h2 class="f-weight mb-4">Dotacje</h2>
+          </div>  
+          <p>Jeśli montowana instalacja objęta jest dofinansowaniem, informujemy o tym naszych klientów i służymy im fachowym wsparciem w składaniu wniosków.</p>
+              <div class="col-12 pt-3 pl-0 ">
+
+                <div class="mb-3 card1 ">
+                  <div class="card-body">
+                    <img class="images" src="img/icons/leaf.png">
+                    <h5 class="card-title my-4 font-weight-bold">Program czyste powietrze</h5>
+                    <p class="card-text">„Czyste Powietrze” to pierwszy ogólnopolski program dopłat do 
+                      wymiany starych pieców oraz docieplenia domów jednorodzinnych.
+                      Celem programu jest walka ze smogiem.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm pl-0">
+                <div class="mb-3 card1">
+                  <div class="card-body">
+                    <img class="images" src="img/icons/electricity.png">
+                    <h5 class="card-title my-4 font-weight-bold">Program Mój Prąd</h5>
+                    <p class="card-text">Chcesz otrzymać dofinansowanie do instalacji fotowoltaicznej, 
+                      magazynu ciepła czy magazynu energii elektrycznej?</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="order-2 col-md-6 pl-md-3 d-flex justify-content-center order-1">
+            <img alt="dotacje fotowoltaika" class="card-img1 px-md-0" src="img/green_energy.webp">
+          </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 50px;">
+      <div class="row">
+        <div class="col-sm p-md-3 d-flex justify-content-end">
+          <iframe title="mapa dojazdu do Ekoterm" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1434.8323315558644!2d15.212644746360398!3d52.78467208097669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47072194215026ad%3A0xa5aa7659d2a023e!2sKo%C5%9Bcielna%202%2C%2066-415%20K%C5%82odawa!5e0!3m2!1spl!2spl!4v1730825617664!5m2!1spl!2spl" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-sm text-md-right pt-5 pt-md-0">
+          <h4 class="mb-3">Nasza firma</h4>
+          <p>ul. Kościelna 2, Kłodawa</p>
+          <p>Parking przy siedzibie</p>
+          <p>+48 095 728 87 35</p>
+          <p>j.prokopowicz@eko-term.pl</p>
+        </div>
+      </div>
+    </div>
+
+  <footer class="footer mt-5">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <h5>Kontakt</h5>
+            <p>ul. Kościelna 2, Kłodawa</p>
+            <p>+48 095 728 87 35</p>
+            <p>j.prokopowicz@eko-term.pl</p>
+          <h5>Godziny</h5>
+            <p>poniedziałek–piątek 7.00–15.00</p> 
+        </div>
+        <div class="col-md-3 col-12">
+          <h5>Linki</h5>
+          <ul>
+            <li class="mb-2"><a class="links" href="index.html">Strona Główna</a></li>
+            <li class="mb-2"><a class="links" href="o_nas.html">O nas</a></li>
+            <li class="mb-2"><a class="links" href="oferta.html">Ofera</a></li>
+            <li class="mb-2"><a class="links" href="certyfikaty.html">Certyfikaty</a></li>
+            <li class="mb-2"><a class="links" href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 col-12 mb-4">
+          <h5>Informacje</h5>
+          <p>Nasza firma powstała w maju 1990 roku i od tego czasu zajmujemy się 
+            montażem oraz serwisem systemów grzewczych i klimatyzacji. Ponad trzydziestoletnie 
+            doświadczenie w branży świadczy o naszym profesjonalizmie – czas weryfikuje 
+            specjalistów, a my nieustannie dotrzymujemy mu kroku.</p>
+        </div>
+      </div>
+      <span class="text-center d-flex pb-4 py-5 justify-content-center" style="font-size: 1rem;">Copyright 2024 © Eko Term | All rights reserved</span>
+    </div>
+
+    <!-- Attributions -->
+
+    <!-- <a href="https://www.flaticon.com/free-icons/humidity" title="humidity icons">Humidity icons created by adriansyah - Flaticon</a> -->
+    <!-- <a href="https://www.flaticon.com/free-icons/home-button" title="home button icons">Home button icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/guaranteed" title="guaranteed icons">Guaranteed icons created by Uniconlabs - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/comfort" title="comfort icons">Comfort icons created by Elzicon - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/gear" title="gear icons">Gear icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/wind" title="wind icons">Wind icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/humidity" title="humidity icons">Humidity icons created by adriansyah - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/leaf" title="leaf icons">Leaf icons created by Creative Stall Premium - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/power" title="power icons">Power icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/money" title="money icons">Money icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/equalizer" title="equalizer icons">Equalizer icons created by Becris - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/electricity" title="electricity icons">Electricity icons created by Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/boiler" title="boiler icons">Boiler icons created by Smashicons - Flaticon</a>
+    <a href="https://www.flaticon.com/free-icons/aircon" title="aircon icons">Aircon icons created by meaicon - Flaticon</a> -->
+
+  </footer>
+</body>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
